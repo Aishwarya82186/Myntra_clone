@@ -78,4 +78,61 @@ header{
     flex-direction: column;
     align-items: center;
 }
-
+.banner_container{
+    margin: 40px 0;
+}
+.banner_image{
+    width: 100%;
+}
+.category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.sale_item{
+    width: 250px;
+}
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column a{
+    text-decoration: none;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;v
+}
+.footer_ps {
+    position: absolute;
+    margin-top: -15px;
+    background: #fafbfc;
+    padding-right: 10px;
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: 700;
+}
+.copyright{
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
